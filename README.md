@@ -1,5 +1,5 @@
-**Scheme Recommendation System:**
-This project is a Streamlit web application that helps users find relevant government schemes based on their input queries. It uses TF-IDF (Term Frequency-Inverse Document Frequency) and Cosine Similarity for recommendation.
+**Govt. Scheme Recommendation System:**
+This project is a Streamlit web application that helps users find relevant government agricultural schemes based on their input queries. It uses TF-IDF (Term Frequency-Inverse Document Frequency) and Cosine Similarity for recommendation.
 
 **Features:**
 ~ User-friendly web interface powered by Streamlit.
