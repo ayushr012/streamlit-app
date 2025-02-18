@@ -1,4 +1,4 @@
-data = {
+schemes_data = {
     'Agri Udaan': {
     'website': 'http://www.agricoop.nic.in/',
     'description': 'Agri Udaan aims to provide support to farmers, Farmer Producer Organizations (FPOs), and Self Help Groups (SHGs) involved in transporting agricultural produce via air cargo. Eligible participants can receive up to 50% subsidy on air freight charges for domestic cargo and 30% for international cargo. Additionally, they gain access to cold chain facilities and packaging infrastructure at airports, along with assistance with market linkages and branding.',
