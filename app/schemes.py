@@ -32,25 +32,42 @@ st.set_page_config(page_title="🌾 Agriculture Scheme Recommendation", layout="
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("https://images.unsplash.com/photo-1600911985583-b225d56b32a0");
-        background-size: cover;
+        background-color: #edfaf9;
     }
     .title {
-        font-size: 36px;
+        font-size: 50px;
         font-weight: bold;
         color: #2E8B57;
         text-align: center;
+        margin-bottom: 10px;
     }
     .subheader {
         font-size: 24px;
-        color: #556B2F;
+        color: #161716;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .query-box {
+        width: 80%;
+        margin: 0 auto;
         text-align: center;
     }
-    .info-box {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 15px;
+    .result-box {
+        background-color: white;
+        padding: 20px;
         border-radius: 10px;
-        box-shadow: 2px 2px 10px gray;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    .recommend-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .scheme-item {
+        font-size: 18px;
+        font-weight: bold;
+        color: #228B22;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -59,7 +76,7 @@ st.markdown("""
 def main():
     # Title and Subheader
     st.markdown('<p class="title">🌾 Agriculture Scheme Recommendation System</p>', unsafe_allow_html=True)
-    st.markdown('<p class="subheader">Get the Best Government Schemes for Your Needs</p>', unsafe_allow_html=True)
+    st.markdown('<p class="subheader">Get the Best Government Schemes for Your Agricultural Needs</p>', unsafe_allow_html=True)
     
     # Creating layout
     col1, col2, col3 = st.columns([1, 2, 1])
